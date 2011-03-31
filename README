@@ -1,8 +1,8 @@
                    ---- Flobii - A GWT Internet Project -----
 
 //Author:                 Kevin Haller
-//Builded with:         GWT 2.1
-                              Appengine 1.4.2
+//Builded with:         GWT 2.1.1
+                              Appengine 1.4.0
                               Eclipse Helios
 // Licenses:             co.cc.flobii.*    -------> Apache License
                               Apis are mostly under the Apache License
