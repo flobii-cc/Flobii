@@ -1,0 +1,259 @@
+	
+
+.dbox{
+	filter:alpha(opacity=90);
+	opacity: .9;
+	-moz-opacity: .9;
+	}
+	
+#dock {
+  position:fixed;
+  bottom:0px;
+}
+
+#cit {
+  position:fixed;
+  background-image:url(bg/sky.png);
+  background-repeat:repeat-x;
+  top:0px;
+}
+	
+
+.vpimgmp{
+	border-color:black;
+	border-style:dashed;
+    border-width:5px;
+}
+.vpinfomp{
+	border-color:gray;
+	border-style:dashed;
+    border-width:4px;
+	}
+
+.vplaymp{
+	/*border-color:orange;
+	border-style:dotted;
+    border-width:5px;*/
+	}
+	
+.anchor{
+	outline:none;
+	}
+
+.loginstyle {
+	display: inline-block;
+	line-height: 1;
+	padding: 7px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	background-color: #39c;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	outline:none;
+}
+
+.loginstyle:link { color: white; }
+.loginstyle:visited { color: white; } 
+.loginstyle:hover { color: white; background-color:#FF9933; }
+
+.anchor {
+	display: inline-block;
+	line-height: 1;
+	padding: 7px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	background-color: #39c;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	outline:none;
+}
+.anchor:link { color: white; }
+.anchor:visited { color: white; } 
+.anchor:hover { color: white; background-color:#FF9933; }
+
+
+.regstyle {
+	display: inline-block;
+	line-height: 1;
+	padding: 7px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	background-color: #3c9;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	outline:none;
+}
+
+.regstyle:link { color: white; }
+.regstyle:visited { color: white; } 
+.regstyle:hover { color: white; background-color:#FF9933; }
+
+.linktoolbar {
+	display: inline-block;
+	line-height: 1;
+	padding: 7px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	background-color:#3c9;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	outline:none;
+}
+
+.linktoolbar:link { color: white; }
+.linktoolbar:visited { color: white; } 
+.linktoolbar:hover { color: white; background-color:#FF9933; }
+
+.linkfolder {
+	display: inline-block;
+	line-height: 1;
+	padding: 7px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	background-color:#0099CC;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	outline:none;
+}
+
+.linkfolder:link { color: white; }
+.linkfolder:visited { color: white; } 
+.linkfolder:hover { color: white; background-color:#FF9933; } 
+
+
+.linkfolderactive {
+	display: inline-block;
+	line-height: 1;
+	padding: 7px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	background-color:#FF9933;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	outline:none;
+}
+
+.linkfolderactive:link { color: white; }
+.linkfolderactive:visited { color: white; } 
+.linkfolderactive:hover { color: white } 
+
+.linklogo {
+	display: inline-block;
+	line-height: 1;
+	padding: 7px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	background-color:#FF0000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	outline:none;
+}
+
+.linklogo:link { color: white; }
+.linklogo:visited { color: white; } 
+.linklogo:hover { color: white } 
+
+
+
+.linklink {
+	display: inline-block;
+	line-height: 1;
+	padding: 7px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	background-color:#C8C8C8;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	outline:none;
+}
+
+.linklink:link { color: white; }
+.linklink:visited { color: white; } 
+.linklink:hover { color: white; background-color:#FF9933; }
+
+
+
+.textbox {
+	border: 2px dashed #FF9900;
+	width: 230px;
+	outline:none;
+	font-family:Futura;
+	font-size:1.2em;
+}
+
+.textboxlog {
+	border: 2px dashed #66CCCC;
+	width: 230px;
+	outline:none;
+	font-family:Futura;
+	font-size:1.2em;
+}
+
+.textboxreg {
+	border: 2px dashed #3c9;
+	width: 230px;
+	outline:none;
+	font-family:Futura;
+	font-size:1.2em;
+}
+
+.textboxgoosearch {
+	border: 2px dashed #999;
+	width: 230px;
+	outline:none;
+	font-family:Futura;
+	font-size:1.2em;
+}
+
+.rstarstyle{
+	outline:none;
+}
+.rstarstyle:click{
+	outline:none;
+}
+
+.hztoolbar{
+		background-color:#E0E0E0;
+	}
+	
+.scfolder{
+		background-color:#E0E0E0;
+	}
+
+.sclink{
+		background-color:#FDFDFD;
+	}
+
+.anchorinfo {
+	outline:none;
+}
+
+@font-face { font-family:WDS; src:url(font/wds.ttf) }
+@font-face { font-family:Futura; src:url(font/Futura_Medium.ttf) }
+@font-face { font-family:Ubuntu; src:url(font/Ubuntu-Title.ttf) }
+@font-face { font-family:CCaps; src:url(font/ccaps.ttf) }
+@font-face { font-family:Bohemica; src:url(font/bohemica.ttf) }

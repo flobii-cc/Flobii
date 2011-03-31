@@ -1,0 +1,67 @@
+<html>
+<head>
+<script src="script/soundmanager2.js"></script>
+</head>
+<body style="background:lightgray;">
+<canvas id="fft" width="1000px" height="500px"></canvas>
+<script>
+/*
+ var canvas = document.getElementById('fft');
+ var fft = canvas.getContext("2d"); 
+fft.fillStyle = "rgba(123,146,50,0.8)";
+fft.fillRect(50,0,50,50);
+fft.fillStyle = "rgba(186,178,102,0.8)";
+fft.fillRect(50,50,50,50);
+fft.fillStyle = "rgba(171,86,70,0.8)";
+fft.fillRect(50,100,50,50);
+fft.fillStyle = "rgba(76,139,164,0.8)";
+fft.fillRect(50,150,50,50);
+fft.fillStyle = "rgba(76,123,146,0.8)";
+fft.fillRect(50,200,50,50);
+fft.fillStyle = "rgba(174,86,112,0.8)";
+fft.fillRect(50,250,50,50);
+fft.fillStyle = "rgba(112,79,94,0.8)";
+fft.fillRect(50,300,50,50);
+fft.fillStyle = "rgba(166,122,133,0.8)";
+fft.fillRect(50,350,50,50);
+
+//-------------------------------------
+fft.fillStyle = "rgba(123,146,50,1)";
+fft.fillRect(200,200,50,50);
+fft.fillStyle = "rgba(184,134,79,1)";
+fft.fillRect(200,0,50,50);
+*/
+
+soundManager.flashVersion = 9;
+var c =0;
+soundManager.onready(function() {
+  var s = soundManager.createSound({
+  id: 's',
+  url: 'http://api.jamendo.com/get2/stream/track/redirect/?id=241&streamencoding=mp31',
+  whileplaying: function() {
+	//window.alert(""+soundManager.getSoundById('s').waveformData.left[64]);
+	var canvas = document.getElementById('fft');
+        var fft = canvas.getContext("2d");
+	for(var i=0;i<64;i++){
+	fft.fillRect(i*(10+2),10,10,soundManager.getSoundById('s').eqData.left[i*4]*300);
+        }
+	if(c==4){
+	c=0;
+	fft.clearRect(0,0,1000,500);
+        }
+c++;
+  },
+  onfinish: function() {
+    this.destruct();
+  }
+});
+s.play();
+});
+
+soundManager.ontimeout(function() {
+   window.alert("Fail");
+});
+
+</script>
+</body>
+</html>

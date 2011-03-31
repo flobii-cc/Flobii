@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='flobii'>
+ <!-- Inherit the core Web Toolkit stuff.                        -->
+  <inherits name='com.google.gwt.user.User'/>
+  <inherits name='com.google.gwt.user.theme.standard.Standard'/>
+  <inherits name="com.google.gwt.http.HTTP" />
+  
+ <!-- Inherit 3rd P. Libs.                                         -->
+  <inherits name='org.gwt.mosaic.Mosaic' />
+  <inherits name='org.gwt.beansbinding.BeansBinding' />
+  <inherits name='org.gwt.mosaic.theme.standard.Standard' />
+  <inherits name="com.gwittit.GwtFacebook"></inherits>
+  
+  <inherits name="org.cobogw.gwt.user.User"></inherits>
+  <inherits name="org.cobogw.gwt.user.CSS"></inherits>
+  <inherits name="org.cobogw.gwt.event.Event"></inherits>
+  
+  
+ <!-- Source Code of the project                                 -->
+  <entry-point class='co.cc.flobii.ui.client.Flobii'/>
+  <source path='client'></source>
+  <source path="fbwidget"></source>
+  <source path="googlewidget"></source>
+  <source path="info"></source>
+  <source path="mpwidget"></source>
+  <source path="linksaver"></source>
+</module>

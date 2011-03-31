@@ -1,0 +1,2 @@
+serviceClass: co.cc.flobii.ui.client.GreetingService
+path: 05AD7E40F1BFD5F835FCEE18128E2CD5.gwt.rpc
